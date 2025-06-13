@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const translationSchema = new mongoose.Schema({
   text: String,
@@ -10,4 +10,4 @@ const translationSchema = new mongoose.Schema({
 
 const Translation = mongoose.model("Translation", translationSchema);
 
-module.exports = Translation;
+export default Translation;

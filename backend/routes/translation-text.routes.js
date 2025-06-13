@@ -1,5 +1,5 @@
-const express = require("express");
-const giveTranslatedText = require("../controller/Translation.contoller");
+import express from "express";
+import giveTranslatedText from "../controller/Translation.contoller.js";
 
 const translationRouter = express.Router();
 
@@ -8,6 +8,7 @@ translationRouter.get("/", (req, res) => {
     message: "Welcome to my text and speech translator backend deployment!",
   });
 });
+
 translationRouter.post("/translate-text", giveTranslatedText);
 
-module.exports = translationRouter;
+export default translationRouter;

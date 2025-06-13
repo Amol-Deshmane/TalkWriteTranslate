@@ -1,8 +1,10 @@
-const express = require("express");
-const cors = require("cors");
-require("dotenv").config();
-const mongooseConnect = require("./config/mongooseConnect");
-const translationRouter = require("./routes/translation-text.routes");
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import mongooseConnect from "./config/mongooseConnect.js";
+import translationRouter from "./routes/translation-text.routes.js";
+
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 8080;
