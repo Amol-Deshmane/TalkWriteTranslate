@@ -6,7 +6,7 @@ This project is a MERN stack-based web application that enables users to transla
 
 ```bash
 git clone https://github.com/Amol-Deshmane/TalkWriteTranslate.git
-cd multilingual-text-and-speech-translator
+cd TalkWriteTraslate
 ```
 **Frontend:**
 ```bash
@@ -36,15 +36,3 @@ List of the technologies used in the project.
 - [Chakra UI](https://chakra-ui.com/getting-started)
 - [React Icons](https://react-icons.github.io/)
 
-## Screenshots
-
-**Home Page Loading**
-![home-page](./screenshots/home-page-loading.jpg)
-
-**Home Page Result**
-![home-page](./screenshots/home-page-result.jpg)
-
-## Connect with Me
-
-- [LinkedIn](https://www.linkedin.com/in/harshalpardeshi/)
-- [Email](mailto:pardeshiharshal90@gmail.com)
