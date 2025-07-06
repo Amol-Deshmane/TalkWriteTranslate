@@ -5,7 +5,7 @@ This project is a MERN stack-based web application that enables users to transla
 ## Getting Started
 
 ```bash
-git clone https://github.com/Hashal890/multilingual-text-and-speech-translator.git
+git clone https://github.com/Amol-Deshmane/TalkWriteTranslate.git
 cd multilingual-text-and-speech-translator
 ```
 **Frontend:**
@@ -20,11 +20,6 @@ cd backend
 npm install
 npm run dev
 ```
-
-## Deployment
-
-- [Frontend](https://multilingual-text-and-speech-translator.vercel.app/)
-- [Backend](https://multilingual-text-and-speech-translator.onrender.com)
 
 ## Technology Stack
 
